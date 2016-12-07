@@ -16,6 +16,20 @@ body {
     color: #555555;
     font-weight: 700;
     font-size: 22px;
+    padding: 0 15px;
+}
+
+.navbar-default .navbar-brand>span {
+    line-height: 52px;
+}
+
+.navbar-default .navbar-brand>span.with-logo {
+    vertical-align: text-top;
+}
+
+.navbar-default .navbar-brand>img {
+    display: inline-block;
+    height: 42px;
 }
 
 .nav>li:hover {
